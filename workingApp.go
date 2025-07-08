@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 )
-//
+
 func StartWork(duration int) {
 	for i := 0; i < duration; i++ {
 		fmt.Println(i+1, "- прошло времени")
